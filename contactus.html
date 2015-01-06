@@ -17,8 +17,10 @@
 		<li><a href="contactus.html">Contact Us</a></li>
 	</ul>
 		<form action="register_account.html">
+
+		<h1>Contact Us</h1>
 			<fieldset>
-			<legend>Contact Us</legend>
+			<legend>Your Contact Information</legend>
 				<label for="name">Name</label><br>
 				<input type="text" name="name" id="name"><br>
 
@@ -39,7 +41,7 @@
 			</fieldset><br>
 				
 			<fieldset>
-				<legend>Other Information</legend>
+			<legend>Share With Us</legend>
 				<label for="favorite">Choose Your Favorite Spice</label><br>
 				<select name="favorite" id="favorite">
 					<option value="">Select Spice</option>
@@ -52,7 +54,32 @@
 					<option value="pep">pepper</option>
 					<option value="cor">coriander</option>	
 				</select><br>
+				<br>
+				<label for="how">Share how you have used Outlander Spices to spice up your favorite dish!</label><br>
+				<textarea name="how" id="" cols="30" rows="10"></textarea><br>
+				<br>
+				
+				<legend>Choose One:</legend>
+				<label for="pro">Professional Chef</label>
+				<input type="radio" name="cheftype" id="pro">
+			
+				<label for="home">Home Cook</label>
+				<input type="radio" name="cheftype" id="home">
+			</fieldset>
+			<br>
 
+			<fieldset>
+			<legend>Final Steps</legend>
+			<legend>Sign me up for a newsletter</legend>
+				<label for="yes">yes</label>
+				<input type="radio" name="news" id="yes">
+				<br>
+				<label for="no">no</label>
+				<input type="radio" name="news" id="no">
+			<br>
+			<br>
+
+				<input type="submit" value="submit contact request">
 			</fieldset>
 
 		</form>
