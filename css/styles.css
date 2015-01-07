@@ -4,6 +4,10 @@ body {
 p {
 	color: #333;
 }
+h2 {
+	font-size: 1.5em;
+	color: #003414;
+}
 h3 {
 	font-size: 1.5em;
 	color: #003414;
@@ -31,6 +35,9 @@ a {
 .nav a {
 	margin: 1em;
 	text-decoration: none;
+}
+.jumplinks{
+	list-style: none;
 }
 .footer {
 	padding: 2em 8em;
